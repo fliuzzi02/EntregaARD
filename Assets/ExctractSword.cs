@@ -5,42 +5,39 @@ using UnityEngine;
 public class ExctractSword : MonoBehaviour
 {
     public GameObject sword;
-    public GameObject player;
-    public GameObject playerHand;
-
-    // Sword collider
     private Collider swordCollider;
-    private Collider playerCollider;
+
+    private bool extracted = false;
 
     // Start is called before the first frame update
     void Start()
     {
         sword = GameObject.Find("Sword");
-        player = GameObject.Find("Banana Man");
-        playerHand = GameObject.Find("Right Hand");
+        if (sword == null)
+            Debug.LogError("Sword not found");
         swordCollider = sword.GetComponent<Collider>();
-        playerCollider = player.GetComponent<Collider>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // If player is within collider of sword, press E to extract sword
-        if (swordCollider.bounds.Intersects(playerCollider.bounds) && Input.GetKeyDown(KeyCode.E))
-        {
-            // Play the sword extraction sound
-            sword.GetComponent<AudioSource>().Play();
+        // Check if a game object tagged as player exists
+        if (!(GameObject.FindGameObjectWithTag("Player") == null)) {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            // If a game object tagged as player is within the sword collider, and the player presses the E key, extract the sword
+            if (swordCollider.bounds.Intersects(player.GetComponent<Collider>().bounds) && Input.GetKeyDown(KeyCode.E) && !extracted)
+            {
+                extracted = true;
+                GameObject hand = GameObject.Find("Right Hand");
+                sword.transform.parent = hand.transform;
+                sword.transform.localPosition = new Vector3(0.002f, 0.005f, 0.002f);
+                sword.transform.localRotation = Quaternion.Euler(186.621f, 94.901f, -261.87f);
 
-            // Set the sword to be a child of the player's hand
-            sword.transform.parent = playerHand.transform;
+                // Play the sword extraction sound
+                GetComponent<AudioSource>().Play();
 
-            // Set the sword's local position and rotation to (186.621, 94.901, -261.87) degrees
-            sword.transform.localPosition = new Vector3(0.002f, 0.005f, 0.002f);
-            sword.transform.localRotation = Quaternion.Euler(186.621f, 94.901f, -261.87f);
-
-            // Debug message
-            Debug.Log("Sword extracted");
+                Debug.Log("Sword extracted");
+            }
         }
-
     }
 }

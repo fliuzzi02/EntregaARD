@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Federico\\EntregaARD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|c:\\users\\federico\\entregaard\\assets\\exctractsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\exctractsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|c:\\users\\federico\\entregaard\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|C:\\Users\\Federico\\EntregaARD\\assets\\playermoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\playermoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|C:\\Users\\Federico\\EntregaARD\\assets\\exctractsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACBEE9C-BCAA-4A22-5022-A14507759C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\exctractsword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExctractSword.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\EntregaARD\\Assets\\ExctractSword.cs",
-              "RelativeDocumentMoniker": "Assets\\ExctractSword.cs",
-              "ToolTip": "C:\\Users\\Federico\\EntregaARD\\Assets\\ExctractSword.cs",
-              "RelativeToolTip": "Assets\\ExctractSword.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAABaAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\EntregaARD\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "C:\\Users\\Federico\\EntregaARD\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:13:37.033Z",
+              "WhenOpened": "2024-12-04T23:09:13.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerMoves.cs",
-              "DocumentMoniker": "C:\\Users\\Federico\\EntregaARD\\Assets\\PlayerMoves.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerMoves.cs",
-              "ToolTip": "C:\\Users\\Federico\\EntregaARD\\Assets\\PlayerMoves.cs",
-              "RelativeToolTip": "Assets\\PlayerMoves.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowCgAAAAJAAAAAAAAAA==",
+              "Title": "ExctractSword.cs",
+              "DocumentMoniker": "C:\\Users\\Federico\\EntregaARD\\Assets\\ExctractSword.cs",
+              "RelativeDocumentMoniker": "Assets\\ExctractSword.cs",
+              "ToolTip": "C:\\Users\\Federico\\EntregaARD\\Assets\\ExctractSword.cs",
+              "RelativeToolTip": "Assets\\ExctractSword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:04:30.466Z"
+              "WhenOpened": "2024-12-04T17:13:37.033Z"
             }
           ]
         }
