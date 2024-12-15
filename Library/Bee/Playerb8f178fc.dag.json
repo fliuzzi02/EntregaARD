@@ -156,7 +156,23 @@
         148,
         149,
         150,
-        151
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -322,7 +338,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16512,
+      "PayloadLength": 17809,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -419,21 +435,34 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.MockHMD.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Telepathy.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/SimpleWebTransport.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Authenticators.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Examples.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Edgegap.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
         "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/kcp2k.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/SimpleWebTransport.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Authenticators.dll",
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "C:/Users/Federico/EntregaARD/Assets/Mirror/Plugins/BouncyCastle/Mirror.BouncyCastle.Cryptography.dll",
         "C:/Users/Federico/EntregaARD/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Users/Federico/EntregaARD/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
@@ -522,6 +551,42 @@
       "DebugActionIndex": 16
     },
     {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json",
+      "DisplayName": "Copying UnitySubsystemsManifest.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json"
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json",
+      "DisplayName": "Copying UnitySubsystemsManifest.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json"
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Plugins/x86_64/UnityMockHMD.dll",
+      "DisplayName": "Copying UnityMockHMD.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Runtime/windows/x64/UnityMockHMD.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Plugins/x86_64/UnityMockHMD.dll"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AIModule.dll",
       "DisplayName": "Copying UnityEngine.AIModule.dll",
       "ActionType": "CopyFiles",
@@ -531,7 +596,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ARModule.dll",
@@ -543,7 +608,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -555,7 +620,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -567,7 +632,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -579,7 +644,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -591,7 +656,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.AudioModule.dll",
@@ -603,7 +668,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ClothModule.dll",
@@ -615,7 +680,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -627,7 +692,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -639,7 +704,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -651,7 +716,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.CoreModule.dll",
@@ -663,7 +728,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -675,7 +740,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -687,7 +752,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -699,7 +764,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.GIModule.dll",
@@ -711,7 +776,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -723,7 +788,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.GridModule.dll",
@@ -735,7 +800,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -747,7 +812,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -759,7 +824,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -771,7 +836,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -783,7 +848,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.InputModule.dll",
@@ -795,7 +860,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -807,7 +872,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -819,7 +884,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -831,7 +896,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -843,7 +908,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -855,7 +920,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -867,7 +932,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -879,7 +944,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -891,7 +956,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -903,7 +968,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -915,7 +980,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -927,7 +992,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -939,7 +1004,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -951,7 +1016,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -963,7 +1028,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -975,7 +1040,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -987,7 +1052,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -999,7 +1064,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1011,7 +1076,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1023,7 +1088,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1035,7 +1100,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1047,7 +1112,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1059,7 +1124,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1071,7 +1136,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1083,7 +1148,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1095,7 +1160,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UIModule.dll",
@@ -1107,7 +1172,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1119,7 +1184,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1131,7 +1196,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1143,7 +1208,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1155,7 +1220,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1167,7 +1232,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1179,7 +1244,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1191,7 +1256,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1203,7 +1268,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1215,7 +1280,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1227,7 +1292,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1239,7 +1304,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1251,7 +1316,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.VRModule.dll",
@@ -1263,7 +1328,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1275,7 +1340,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1287,7 +1352,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1299,7 +1364,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.WindModule.dll",
@@ -1311,7 +1376,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.XRModule.dll",
@@ -1323,7 +1388,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.dll",
@@ -1335,7 +1400,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Assembly-CSharp.dll",
@@ -1347,67 +1412,43 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 85
-    },
-    {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.dll",
-      "DisplayName": "Copying Mirror.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.dll"
-      ],
-      "Outputs": [
-        "Build/EntregaARD_Data/Managed/Mirror.dll"
-      ],
-      "DebugActionIndex": 86
-    },
-    {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.Core.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
-      ],
-      "Outputs": [
-        "Build/EntregaARD_Data/Managed/Unity.VisualScripting.Core.dll"
-      ],
-      "DebugActionIndex": 87
-    },
-    {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UI.dll",
-      "DisplayName": "Copying UnityEngine.UI.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
-      ],
-      "Outputs": [
-        "Build/EntregaARD_Data/Managed/UnityEngine.UI.dll"
-      ],
       "DebugActionIndex": 88
     },
     {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Transports.dll",
-      "DisplayName": "Copying Mirror.Transports.dll",
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.Management.dll",
+      "DisplayName": "Copying Unity.XR.Management.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll"
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll"
       ],
       "Outputs": [
-        "Build/EntregaARD_Data/Managed/Mirror.Transports.dll"
+        "Build/EntregaARD_Data/Managed/Unity.XR.Management.dll"
       ],
       "DebugActionIndex": 89
     },
     {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Components.dll",
-      "DisplayName": "Copying Mirror.Components.dll",
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.MockHMD.dll",
+      "DisplayName": "Copying Unity.XR.MockHMD.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll"
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.MockHMD.dll"
       ],
       "Outputs": [
-        "Build/EntregaARD_Data/Managed/Mirror.Components.dll"
+        "Build/EntregaARD_Data/Managed/Unity.XR.MockHMD.dll"
       ],
       "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
+      ],
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1419,7 +1460,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Telepathy.dll",
@@ -1431,43 +1472,55 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Telepathy.dll"
       ],
-      "DebugActionIndex": 92
-    },
-    {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.Timeline.dll",
-      "DisplayName": "Copying Unity.Timeline.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
-      ],
-      "Outputs": [
-        "Build/EntregaARD_Data/Managed/Unity.Timeline.dll"
-      ],
       "DebugActionIndex": 93
     },
     {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/SimpleWebTransport.dll",
-      "DisplayName": "Copying SimpleWebTransport.dll",
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.Features.MockRuntime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/SimpleWebTransport.dll"
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll"
       ],
       "Outputs": [
-        "Build/EntregaARD_Data/Managed/SimpleWebTransport.dll"
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll"
       ],
       "DebugActionIndex": 94
     },
     {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Authenticators.dll",
-      "DisplayName": "Copying Mirror.Authenticators.dll",
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.CoreUtils.dll",
+      "DisplayName": "Copying Unity.XR.CoreUtils.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Authenticators.dll"
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll"
       ],
       "Outputs": [
-        "Build/EntregaARD_Data/Managed/Mirror.Authenticators.dll"
+        "Build/EntregaARD_Data/Managed/Unity.XR.CoreUtils.dll"
       ],
       "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.dll"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll"
+      ],
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Examples.dll",
@@ -1479,7 +1532,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Mirror.Examples.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Edgegap.dll",
@@ -1491,7 +1544,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Edgegap.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.TextMeshPro.dll",
@@ -1503,19 +1556,19 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 100
     },
     {
-      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.State.dll",
-      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
       ],
       "Outputs": [
-        "Build/EntregaARD_Data/Managed/Unity.VisualScripting.State.dll"
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/kcp2k.dll",
@@ -1527,7 +1580,175 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/kcp2k.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+      "DisplayName": "Copying Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
+      "DisplayName": "Copying UnityEngine.XR.LegacyInputHelpers.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.dll",
+      "DisplayName": "Copying Mirror.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Mirror.dll"
+      ],
+      "DebugActionIndex": 105
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.Core.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.VisualScripting.Core.dll"
+      ],
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Transports.dll",
+      "DisplayName": "Copying Mirror.Transports.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Mirror.Transports.dll"
+      ],
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.SpatialTracking.dll",
+      "DisplayName": "Copying UnityEngine.SpatialTracking.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/UnityEngine.SpatialTracking.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Components.dll",
+      "DisplayName": "Copying Mirror.Components.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Mirror.Components.dll"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.Timeline.dll",
+      "DisplayName": "Copying Unity.Timeline.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.Timeline.dll"
+      ],
+      "DebugActionIndex": 111
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.InputSystem.dll",
+      "DisplayName": "Copying Unity.InputSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.InputSystem.dll"
+      ],
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "DisplayName": "Copying Unity.InputSystem.ForUI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.InputSystem.ForUI.dll"
+      ],
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/SimpleWebTransport.dll",
+      "DisplayName": "Copying SimpleWebTransport.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/SimpleWebTransport.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/SimpleWebTransport.dll"
+      ],
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.Authenticators.dll",
+      "DisplayName": "Copying Mirror.Authenticators.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Mirror.Authenticators.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Mirror.Authenticators.dll"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.State.dll",
+      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Federico/EntregaARD/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+      ],
+      "Outputs": [
+        "Build/EntregaARD_Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mirror.BouncyCastle.Cryptography.dll",
@@ -1539,7 +1760,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Mirror.BouncyCastle.Cryptography.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1551,7 +1772,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Newtonsoft.Json.dll",
@@ -1563,7 +1784,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/netstandard.dll",
@@ -1575,7 +1796,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/Mono.Security.dll",
@@ -1587,7 +1808,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1599,7 +1820,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Configuration.dll",
@@ -1611,7 +1832,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Core.dll",
@@ -1623,7 +1844,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1635,7 +1856,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Data.dll",
@@ -1647,7 +1868,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Drawing.dll",
@@ -1659,7 +1880,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.EnterpriseServices.dll",
@@ -1671,7 +1892,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1683,7 +1904,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.IO.Compression.dll",
@@ -1695,7 +1916,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Net.Http.dll",
@@ -1707,7 +1928,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Numerics.dll",
@@ -1719,7 +1940,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Runtime.Serialization.dll",
@@ -1731,7 +1952,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Security.dll",
@@ -1743,7 +1964,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1755,7 +1976,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Transactions.dll",
@@ -1767,7 +1988,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Xml.Linq.dll",
@@ -1779,7 +2000,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.Xml.dll",
@@ -1791,7 +2012,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/System.dll",
@@ -1803,7 +2024,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Managed/mscorlib.dll",
@@ -1815,20 +2036,20 @@
       "Outputs": [
         "Build/EntregaARD_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16684,
+      "PayloadOffset": 17981,
       "PayloadLength": 25,
       "PayloadDebugContentSnippet": "DefaultCompany\nEntregaARD",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/app.info",
@@ -1841,9 +2062,9 @@
         "Build/EntregaARD_Data/app.info"
       ],
       "ToBuildDependencies": [
-        125
+        141
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD_Data/Resources/unity default resources",
@@ -1855,7 +2076,7 @@
       "Outputs": [
         "Build/EntregaARD_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Build/EntregaARD.exe",
@@ -1867,7 +2088,7 @@
       "Outputs": [
         "Build/EntregaARD.exe"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1879,7 +2100,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1891,7 +2112,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1903,7 +2124,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1915,7 +2136,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1927,7 +2148,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1939,7 +2160,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1951,7 +2172,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1963,7 +2184,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1975,7 +2196,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1987,7 +2208,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1999,7 +2220,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2011,7 +2232,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2023,7 +2244,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2035,7 +2256,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2047,7 +2268,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2059,7 +2280,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2071,7 +2292,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2083,7 +2304,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
@@ -2095,7 +2316,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2107,7 +2328,7 @@
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
@@ -2119,7 +2340,7 @@
       "Outputs": [
         "Build/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Build/UnityPlayer.dll",
@@ -2131,7 +2352,7 @@
       "Outputs": [
         "Build/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "Player",
@@ -2261,6 +2482,7 @@
         122,
         123,
         124,
+        125,
         126,
         127,
         128,
@@ -2276,7 +2498,6 @@
         138,
         139,
         140,
-        141,
         142,
         143,
         144,
@@ -2285,10 +2506,26 @@
         147,
         148,
         149,
-        150
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 151
+      "DebugActionIndex": 167
     }
   ],
   "FileSignatures": [
@@ -2428,6 +2665,9 @@
     },
     {
       "File": "Library/Bee/Playerb8f178fc-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.xr.mock-hmd@1.4.0-preview.2/Runtime/windows/x64/UnityMockHMD.dll"
     }
   ],
   "GlobSignatures": [
@@ -2489,7 +2729,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 151
+          "Player": 167
         }
 ,  "DefaultNodes": [
     0
