@@ -5,21 +5,13 @@ using Mirror;
 
 public class CameraController : NetworkBehaviour
 {
-    [SerializeField] private Camera myCamera;
     [SerializeField] private Vector3 offset;
     [SerializeField] private Vector3 rotation;
 
-    private void Start()
+    public override void OnStartLocalPlayer()
     {
-        if (isLocalPlayer)
-        {
-            // Find camera tagged as "MainCamera"
-            myCamera = Camera.main;
-
-            // Set camera to follow player
-            myCamera.transform.SetParent(transform);
-            myCamera.transform.localPosition = offset;
-            myCamera.transform.rotation = Quaternion.Euler(rotation);
-        }
+        Camera.main.transform.SetParent(transform);
+        Camera.main.transform.localPosition = offset;
+        Camera.main.transform.rotation = Quaternion.Euler(rotation);
     }
 }

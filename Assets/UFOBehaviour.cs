@@ -12,6 +12,9 @@ public class UFOBehaviour : NetworkBehaviour
     [SerializeField]
     [SyncVar] private float invisibleTime;
 
+    [SerializeField]
+    [SyncVar] public bool visible = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,30 +36,33 @@ public class UFOBehaviour : NetworkBehaviour
             movingLeft = true;
     }
 
-    // TODO: The random amount of time is not synchronized across clients
-    // On trigger
-    void OnTriggerEnter(Collider other)
+    [ClientRpc]
+    public void Disappear()
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("Player collided with UFO");
-            // Play sound
-            GetComponent<AudioSource>().Stop();
-            // Make object invisible
-            GetComponent<MeshRenderer>().enabled = false;
-            // Make object inconsistent
-            GetComponent<CapsuleCollider>().enabled = false;
-            // Wait random seconds before making object visible again
-            invisibleTime = Random.Range(minInvisibleTime, maxInvisibleTime);
-            Invoke("Appear", invisibleTime);
-        }
+        Debug.Log("Executing Command");
+        // Play sound
+        GetComponent<AudioSource>().Stop();
+        // Make object invisible
+        GetComponent<MeshRenderer>().enabled = false;
+        // Make object inconsistent
+        GetComponent<CapsuleCollider>().enabled = false;
+        // Wait random seconds before making object visible again
+        invisibleTime = Random.Range(minInvisibleTime, maxInvisibleTime);
+        // Invoke method to make object visible again
+        Invoke("Appear", invisibleTime);
     }
 
     void Appear()
     {
         // Make object visible and play music
+        visible = true;
         GetComponent<MeshRenderer>().enabled = true;
         GetComponent<CapsuleCollider>().enabled = true;
         GetComponent<AudioSource>().Play();
+    }
+
+    public bool isVisible()
+    {
+        return visible;
     }
 }

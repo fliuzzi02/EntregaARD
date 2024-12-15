@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 642434596674010340}
   m_Layer: 0
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: UFO
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,10 +273,12 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  movement: {x: 2, y: 0, z: 0}
+  movement: {x: 4, y: 0, z: 0}
   movingLeft: 1
   minInvisibleTime: 2
   maxInvisibleTime: 5
+  invisibleTime: 0
+  visible: 1
 --- !u!136 &642434596674010340
 CapsuleCollider:
   m_ObjectHideFlags: 0
