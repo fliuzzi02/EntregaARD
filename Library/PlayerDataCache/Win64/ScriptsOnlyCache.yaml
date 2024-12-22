@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - MicrophoneRecorder
     - Player
     - UFOBehaviour
+    - VRMode
     - Webcam
     Mirror.Components.dll:
     - Mirror.Discovery.NetworkDiscovery
@@ -45,7 +46,6 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
@@ -55,7 +55,6 @@ ScriptsOnlyBuild:
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
-    - UnityEditor.XR.OpenXR.PackageSettingsEditor
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
     - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
     Unity.XR.OpenXR.Features.MockRuntime.dll:
@@ -186,65 +185,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1806}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 1966}
+      Script: {instanceID: 1970}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 3054}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3326}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3480}
     - Class: 114
-      Script: {instanceID: 3772}
+      Script: {instanceID: 3794}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3870}
     - Class: 114
-      Script: {instanceID: 4968}
+      Script: {instanceID: 4698}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5488}
+      Script: {instanceID: 5484}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5522}
     - Class: 114
-      Script: {instanceID: 5672}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 6468}
+      Script: {instanceID: 6154}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6504}
     - Class: 114
-      Script: {instanceID: 7480}
+      Script: {instanceID: 6978}
     - Class: 114
-      Script: {instanceID: 7542}
+      Script: {instanceID: 7522}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7584}
     - Class: 114
-      Script: {instanceID: 7956}
+      Script: {instanceID: 7908}
     - Class: 114
-      Script: {instanceID: 8042}
+      Script: {instanceID: 7998}
     - Class: 114
-      Script: {instanceID: 9302}
+      Script: {instanceID: 8084}
     - Class: 114
-      Script: {instanceID: 9930}
+      Script: {instanceID: 9352}
+    - Class: 114
+      Script: {instanceID: 9988}
     - Class: 114
       Script: {instanceID: 10070}
     - Class: 114
-      Script: {instanceID: 27826}
+      Script: {instanceID: 10130}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -498,12 +499,6 @@ ScriptsOnlyBuild:
     className: NetworkStatistics
   - hash:
       serializedVersion: 2
-      Hash: e015776da795e7430f0f7cf67522bec4
-    assemblyName: Mirror.Examples
-    namespaceName: Mirror.Examples.CouchCoop
-    className: MovingPlatform
-  - hash:
-      serializedVersion: 2
       Hash: ca91e3126cdb19df5172d0e4d21c31cb
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
@@ -514,6 +509,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e015776da795e7430f0f7cf67522bec4
+    assemblyName: Mirror.Examples
+    namespaceName: Mirror.Examples.CouchCoop
+    className: MovingPlatform
   - hash:
       serializedVersion: 2
       Hash: a4006dfaf65bec8fbbb320da6fe0a96c
@@ -1104,6 +1105,12 @@ ScriptsOnlyBuild:
     className: TankAuthority
   - hash:
       serializedVersion: 2
+      Hash: 36b9c3b7e6f448c6c3d66eced15478e3
+    assemblyName: Unity.XR.MockHMD
+    namespaceName: Unity.XR.MockHMD
+    className: MockHMDBuildSettings
+  - hash:
+      serializedVersion: 2
       Hash: c295f30afa84e01403208fa0cae6cd3a
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils.Datums
@@ -1144,6 +1151,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils
     className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: ae747ceb3f59a7bb3aed1ad7881371bc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Webcam
   - hash:
       serializedVersion: 2
       Hash: 8751ba4a82568e9a32d19e994627219c
@@ -2580,6 +2593,12 @@ ScriptsOnlyBuild:
     className: CanvasScript
   - hash:
       serializedVersion: 2
+      Hash: 63cda63b57e2b04c1333216b853742fe
+    assemblyName: Unity.XR.MockHMD
+    namespaceName: Unity.XR.MockHMD
+    className: MockHMDLoader
+  - hash:
+      serializedVersion: 2
       Hash: b4e172222e7fcd6466dabad223ef051a
     assemblyName: Mirror.Examples
     namespaceName: Mirror.Examples.Common
@@ -2736,6 +2755,12 @@ ScriptsOnlyBuild:
     className: CanvasHUD
   - hash:
       serializedVersion: 2
+      Hash: f6dbcdd9ca92d455383a9a66db610d39
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VRMode
+  - hash:
+      serializedVersion: 2
       Hash: 9eccc4340fcd994586e0dcb134c4612e
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -2872,24 +2897,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae747ceb3f59a7bb3aed1ad7881371bc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Webcam
-  - hash:
-      serializedVersion: 2
-      Hash: 63cda63b57e2b04c1333216b853742fe
-    assemblyName: Unity.XR.MockHMD
-    namespaceName: Unity.XR.MockHMD
-    className: MockHMDLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 36b9c3b7e6f448c6c3d66eced15478e3
-    assemblyName: Unity.XR.MockHMD
-    namespaceName: Unity.XR.MockHMD
-    className: MockHMDBuildSettings
   platform: 19
   scenePathNames:
   - Assets/Scenes/Game.unity

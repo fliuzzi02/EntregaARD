@@ -384,6 +384,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/UFOBehaviour.cs"
 "Assets/VarcanRex/LongSword/Scripts/SimpleRotate.cs"
+"Assets/VRMode.cs"
 "Assets/Webcam.cs"
 -langversion:9.0
 /deterministic
